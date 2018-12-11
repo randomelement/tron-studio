@@ -5,7 +5,6 @@
 ## Tron Studio
 TronStudio is an IDE to develop/deploy/debug smart contract based on TVM.
 
-<<<<<<< HEAD
 
 ## Screenshot
 ![](image/screenshot.png)
@@ -48,7 +47,6 @@ TronStudio is an IDE to develop/deploy/debug smart contract based on TVM.
   <a href="CONTRIBUTING.md">Contributing</a> •
   <a href="#community">Community</a>
 </p>
->>>>>>> Odyssey-v3.2.1.2
 
 ## System Requirement
 Oracle JDK 1.8
@@ -64,7 +62,6 @@ Oracle JDK 1.8
 cd  build/libs
 java -jar TronStudio.jar
 ```
-<<<<<<< HEAD
 =======
 
 </details>
@@ -119,4 +116,3 @@ Read the [Advanced Configurations](src/main/java/org/tron/core/config/README.md)
 * [TRON Protocol](https://github.com/tronprotocol/protocol)
 * [Wallet Client](https://github.com/tronprotocol/wallet-cli)
 * [Wallet Web](https://github.com/tronprotocol/wallet-web)
->>>>>>> Odyssey-v3.2.1.2
