@@ -36,7 +36,7 @@ public class CompilationErrorResult {
         boolean startLine = false;
         boolean endLine = false;
         boolean isWarningType = false;
-        StringBuilder currentErrorList = null;
+        StringBuilder currentErrorList = new StringBuilder();
         for (int i = 0; i < lines.length; i++) {
             String currentLine = lines[i];
             if (StringUtils.startsWith(currentLine, "Warning:")) {
@@ -52,7 +52,6 @@ public class CompilationErrorResult {
                 endLine = false;
             }
             if (startLine) {
-                currentErrorList = new StringBuilder();
                 currentErrorList.append(currentLine).append("\n");
             } else if (endLine) {
                 currentErrorList.append(currentLine).append("\n");
